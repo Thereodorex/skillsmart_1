@@ -20,7 +20,6 @@ class Game:
 			for y, line in enumerate(self.board):
 				for x, v in enumerate(line):
 					if v == 1:
-						pass
 						self.board[y][x] = 2
 			for y, line in enumerate(self.board):
 				for x, v in enumerate(line):
